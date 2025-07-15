@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "AI help Extension",
+  "version": "0.1",
+  "author": "Chiranjeev Bansal",
+  "description": "A chrome extesion to help us track problem in AZ problems",
+  "permissions": [ 
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://maang.in/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+  "https://generativelanguage.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources" : [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/delete.png",
+        "assets/play.png",
+        "inject.js"
+      ],
+      "matches" : ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "AI help Extension "
+  }
+}
