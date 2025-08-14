@@ -1,41 +1,48 @@
-# Chrome-Extension-Base-Template
-This is a basic Chrome Extension base template for starting new projects off of initialized with a MIT license.
+# SPA AI Sidekick Extension
+
+A browser extension that brings an AI-powered sidekick to your Single Page Applications (SPA). Enhance your productivity with intelligent features, easy integration, and a seamless UI.
 
 ## Features
-- ..
-- ..
-- ..
 
-## Author
-First Last
-- [Author Website]()
-- [Author Github]()
-- [Project Repository]()
+- 🧠 AI assistant for SPA workflows
+- ⚡ Fast, lightweight, and easy to use
+- 🔒 Secure and privacy-focused
+- 🔧 Works with most modern SPAs
+- 💬 Natural language interface
 
-## Requirements
-### Knowledge
-- HTML
-- CSS
-- Javascript
-- Chrome API
-### Tools
-- Google Chrome Browser
-- IDE or Text Editor of Your Choice
+## Technologies Used
 
-## Setup Instructions
-### For Developers
-1. Make a clone of this project, unzipped.
-2. Open Chrome Browser
-3. In a new or blank tab, type in "chrome://extensions/" (without the quotes of course) and click [Enter].
-4. At the top right corner of the page, **enable** "Developer Mode"
-5. Click the button on the page that says "Load Unpacked"
-6. Navigate to your unzipped project folder and select that and hit OK.
-7. You are now ready to start working on the extension! Just make sure you reload after each change you make to see the changes take place.
+- **JavaScript** (90.4%)
+- **HTML** (9.6%)
 
-### For End Users
-1. ...
-2. ...
-3. ...
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Chiranjeev027/spa-ai-sidekick-extension.git
+   cd spa-ai-sidekick-extension
+   ```
+
+2. **Load the extension in your browser**
+   - In Chrome/Edge:
+     1. Go to `chrome://extensions/`
+     2. Enable Developer mode (top right)
+     3. Click “Load unpacked” and select the project folder
+
+## Usage
+
+- Open a supported SPA website.
+- Activate the extension from your browser toolbar.
+- Interact with the AI sidekick via the UI panel.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
-Please refer to LICENSE file.
+
+[MIT](LICENSE)
+
+---
+
+> **Note:** This project is under active development. Features and usage may change.
